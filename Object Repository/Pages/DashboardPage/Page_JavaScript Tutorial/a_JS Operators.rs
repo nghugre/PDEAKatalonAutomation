@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_JS Operators</name>
+   <tag></tag>
+   <elementGuidId>a7735e38-7f19-42da-bf3b-ea7a93cfee78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='leftmenuinnerinner']/a[11]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#leftmenuinnerinner > a:nth-of-type(11)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; JS Operators&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>fa7bdfc5-4a83-40dd-a8b7-49db79042eb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_top</value>
+      <webElementGuid>9f3d3260-d707-4edc-8d40-311ade98c47a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>js_operators.asp</value>
+      <webElementGuid>1988725f-239b-4ff7-bdab-209bc3bb8e92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>JS Operators</value>
+      <webElementGuid>371ecdf4-9be7-4b59-990a-e475a9809334</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;leftmenuinnerinner&quot;)/a[11]</value>
+      <webElementGuid>58dcabb2-3e34-4a29-934e-7dbfb04a7cae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='leftmenuinnerinner']/a[11]</value>
+      <webElementGuid>bbe21b15-64b6-4480-a74b-a60128483e8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'JS Operators')]</value>
+      <webElementGuid>236baff9-0300-4567-b87b-405765de0dfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JS Const'])[1]/following::a[1]</value>
+      <webElementGuid>03c7716c-ead2-4ca9-ad26-282595c3a985</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JS Let'])[1]/following::a[2]</value>
+      <webElementGuid>65ac74b5-1b07-47f4-a5a2-0fb0599d2730</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JS Arithmetic'])[1]/preceding::a[1]</value>
+      <webElementGuid>d924fad7-5a97-4bac-acd9-267227902f23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JS Assignment'])[1]/preceding::a[2]</value>
+      <webElementGuid>00293914-6322-4606-8e94-5091b8d7865f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='JS Operators']/parent::*</value>
+      <webElementGuid>f100b8de-4197-4994-a3bf-ca777a866afc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'js_operators.asp')]</value>
+      <webElementGuid>3b62cad6-d3e0-4341-94a9-4b2ca7a5c23e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/a[11]</value>
+      <webElementGuid>a6c17f83-b505-4687-bae0-b6db3da61399</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'js_operators.asp' and (text() = 'JS Operators' or . = 'JS Operators')]</value>
+      <webElementGuid>e13299be-72f3-4950-a452-f0e086f7487e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

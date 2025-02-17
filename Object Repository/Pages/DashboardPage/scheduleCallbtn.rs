@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ContinuWithEmail</name>
+   <name>scheduleCallbtn</name>
    <tag></tag>
-   <elementGuidId>229fe48e-368b-4e14-8214-56841beda2a8</elementGuidId>
+   <elementGuidId>512ca996-ca74-43bd-b6a5-2a91bf70e5f5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[text()='Continue with email']</value>
+         <value>//*[text()='Schedule a call']</value>
       </entry>
       <entry>
          <key>BASIC</key>

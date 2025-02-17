@@ -20,7 +20,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class dashboard {
+public class dashboard2 {
 	@Keyword
 	def static void launchApplication(String applicationURL){
 		WebUI.openBrowser(applicationURL)

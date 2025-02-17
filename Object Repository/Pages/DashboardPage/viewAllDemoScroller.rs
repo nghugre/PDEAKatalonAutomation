@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>resourcesContent</name>
+   <name>viewAllDemoScroller</name>
    <tag></tag>
-   <elementGuidId>2e82ebdd-b787-4308-8338-72811c0ee442</elementGuidId>
+   <elementGuidId>0dc14539-011d-4323-af57-7c86e18854a1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[contains(@class,'header__nav--menu-content')])[3]</value>
+         <value>//*[@class='main-wrapper demo-cta__wrapper']</value>
       </entry>
       <entry>
          <key>BASIC</key>

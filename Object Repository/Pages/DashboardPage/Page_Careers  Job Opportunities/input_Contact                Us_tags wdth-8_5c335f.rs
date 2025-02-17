@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Contact                Us_tags wdth-8_5c335f</name>
+   <tag></tag>
+   <elementGuidId>8c4f0b81-a246-488e-a66e-c0e13f269317</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.tags.wdth-80.input-search.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Search by role or keyword...&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>63cddd61-d5ad-4078-b1f1-2f32023bd02c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search by role or keyword...</value>
+      <webElementGuid>63b59886-335a-483b-8c55-d53390494a92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>6766e1b7-831d-468d-b25f-327bb71f85d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tags wdth-80 input-search ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>943a45f7-2e8b-4cd4-8d52-8a65a7f8a969</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;home enable-preloader nav-dark&quot;]/app-root[1]/main[1]/app-home[1]/main[@class=&quot;ps-reltv&quot;]/section[@class=&quot;banner-sec p_t_2&quot;]/div[@class=&quot;banner-bg&quot;]/div[@class=&quot;overlay-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/form[@class=&quot;wdth-644 ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;form-group dsply-flx-1 m-b-17 m-t-15&quot;]/input[@class=&quot;tags wdth-80 input-search ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>63aa596e-061c-48d0-b23c-c24be6fa05e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='text']</value>
+      <webElementGuid>0753a408-80c9-4bb6-a7d2-b62bd782ea3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>8112ce13-3fb7-40e0-9459-c38931c4d0d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Search by role or keyword...' and @type = 'text']</value>
+      <webElementGuid>9c375732-843e-4c26-baa8-00e559fce739</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

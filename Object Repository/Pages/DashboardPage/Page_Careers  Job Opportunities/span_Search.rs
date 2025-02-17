@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Search</name>
+   <tag></tag>
+   <elementGuidId>f736a641-cac6-4c5f-80e4-662292b5b04a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Locations'])[1]/following::span[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.search-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>button >> internal:has-text=&quot;Search&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e0993ede-3c53-484e-8ea0-3fb3430ae255</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>search-text</value>
+      <webElementGuid>33b659e9-0f3d-4b89-ac48-9dab59c3d6e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Search</value>
+      <webElementGuid>7b1d33b2-d887-49de-a2fe-341b38a874c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;home enable-preloader nav-dark&quot;]/app-root[1]/main[1]/app-home[1]/main[@class=&quot;ps-reltv&quot;]/section[@class=&quot;banner-sec p_t_2&quot;]/div[@class=&quot;banner-bg&quot;]/div[@class=&quot;overlay-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/form[@class=&quot;wdth-644 ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;form-group dsply-flx-1 m-b-17 m-t-15&quot;]/button[@class=&quot;searchClick wdth-20&quot;]/span[@class=&quot;search-text&quot;]</value>
+      <webElementGuid>1f8b6dd6-1409-4452-9cd3-e5a72f2e20b4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Locations'])[1]/following::span[3]</value>
+      <webElementGuid>2c0693e8-7e89-41c0-8d90-4fca50f39742</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore Opportunities'])[1]/preceding::span[1]</value>
+      <webElementGuid>0e2f326c-f5c2-42b8-b114-4baa1ca82446</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>a7ffed32-13a9-4326-8d2a-6446e9b64eee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Search' or . = 'Search')]</value>
+      <webElementGuid>c1b3f98e-9fa6-4c1f-9789-7f907817591f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

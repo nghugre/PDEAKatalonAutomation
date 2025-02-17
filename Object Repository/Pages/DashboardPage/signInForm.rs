@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>signlnForm</name>
+   <name>signInForm</name>
    <tag></tag>
    <elementGuidId>b9a29e09-f135-40c3-8864-f63fef37a59b</elementGuidId>
    <selectorCollection>

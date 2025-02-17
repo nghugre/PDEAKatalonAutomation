@@ -85,7 +85,7 @@ public class dashboard {
 			WebUI.click(findTestObject('Pages/DashboardPage/loginBtnInHeader'));
 			WebUI.click(findTestObject('Pages/DashboardPage/ContinueWithEmail'));
 			TestObject testObject2 = findTestObject('Pages/DashboardPage/signInForm');
-			if(WebUI.verifyElementPresent(testObject2, 1)) {
+			if(WebUI.verifyElementPresent(testObject2, 5)) {
 				println "Sign in form is displayed"
 			}
 		}
@@ -97,7 +97,7 @@ public class dashboard {
 		if(WebUI.waitForElementVisible(testObject, 1)) {
 			WebUI.sendKeys(findTestObject('Pages/DashboardPage/username'),'nitin_ghugare@persistent.com');
 			WebUI.sendKeys(findTestObject('Pages/DashboardPage/password'),'@@');
-			WebUI.click(findTestObject('Pages/DashboardPage/signInBtn'));
+			WebUI.click(findTestObject('Object Repository/Pages/DashboardPage/signlnBtn'));
 
 			TestObject testObject2 = findTestObject('Pages/DashboardPage/invalidUsernameAndPassword')
 			if(WebUI.verifyElementPresent(testObject2, 1)) {
@@ -110,7 +110,7 @@ public class dashboard {
 	def static void validateErrorMsgForEmptyFields() {
 		TestObject testObject = findTestObject('Pages/DashboardPage/signInForm');
 		if(WebUI.waitForElementVisible(testObject, 1)) {
-			WebUI.click(findTestObject('Pages/DashboardPage/signInBtn'));
+			WebUI.click(findTestObject('Object Repository/Pages/DashboardPage/signlnBtn'));
 			TestObject testObject2 = findTestObject('Pages/DashboardPage/invalidUsernameAndPassword')
 			if(WebUI.verifyElementPresent(testObject2, 1)) {
 				println "Error message is displayed"
@@ -200,19 +200,19 @@ public class dashboard {
 
 	@Keyword
 	def static void verifyViewAllDemoIsClickable() {
-		TestObject testObject = findTestObject('Pages/DashboardPage/viewAllDemo');
+		TestObject testObject = findTestObject('Pages/DashboardPage/viewAllDemoScroller');
 		if(WebUI.waitForElementVisible(testObject, 1)) {
 			println "demo video is displayed"
 
 			WebUI.scrollToElement(testObject, 1)
-			WebUI.click(testObject)
+			WebUI.click(findTestObject('Pages/DashboardPage/viewAllDemo'))
 			println "Clicked on view All demo"
 		}
 	}
 
 	@Keyword
 	def static void verifyDemosAreDisplayed() {
-		TestObject testObject = findTestObject('Pages/DashboardPage/allDemo');
+		TestObject testObject = findTestObject('Pages/DashboardPage/allDemos');
 		if(WebUI.waitForElementVisible(testObject, 1)) {
 			println "All demos are displayed"
 		}
@@ -233,8 +233,10 @@ public class dashboard {
 
 			WebUI.sendKeys(findTestObject('Pages/DashboardPage/username'), 'nitin_ghugare@persistent.com')
 			WebUI.sendKeys(findTestObject('Pages/DashboardPage/password'), 'Mumbai@23')
+			if(WebUI.waitForElementVisible(findTestObject('Object Repository/Pages/DashboardPage/signlnBtn'), 5)) {
+				WebUI.click(findTestObject('Object Repository/Pages/DashboardPage/signlnBtn'))
+			}
 
-			WebUI.click(findTestObject('Pages/DashboardPage/signInBtn'))
 
 			TestObject testObject2 = findTestObject('Pages/DashboardPage/welcomeBack');
 
@@ -252,7 +254,7 @@ public class dashboard {
 			WebUI.sendKeys(findTestObject('Pages/DashboardPage/username'), '@@')
 			WebUI.sendKeys(findTestObject('Pages/DashboardPage/password'), 'Mumbai@23')
 
-			WebUI.click(findTestObject('Pages/DashboardPage/signInBtn'))
+			WebUI.click(findTestObject('Object Repository/Pages/DashboardPage/signlnBtn'))
 
 			TestObject testObject2 = findTestObject('Pages/DashboardPage/invalidUsernameAndPassword');
 

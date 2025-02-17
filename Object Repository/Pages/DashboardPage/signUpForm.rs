@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class='form_sign up']</value>
+         <value>//*[@class='form_sign_up']</value>
       </entry>
       <entry>
          <key>BASIC</key>

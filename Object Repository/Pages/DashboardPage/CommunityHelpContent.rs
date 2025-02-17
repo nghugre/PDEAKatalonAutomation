@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(@class,'Trending sectionStats')]</value>
+         <value>//*[contains(@class,'Trending_sectionStats')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
