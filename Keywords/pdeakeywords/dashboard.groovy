@@ -95,7 +95,7 @@ public class dashboard {
 	def static void validatePasswordField() {
 		TestObject testObject = findTestObject('Pages/DashboardPage/signInForm');
 		if(WebUI.waitForElementVisible(testObject, 1)) {
-			WebUI.sendKeys(findTestObject('Pages/DashboardPage/username'),'nitin_ghugare@persistent.com');
+			WebUI.sendKeys(findTestObject('Pages/DashboardPage/username'),'nitinghugare76@gmail.com');
 			WebUI.sendKeys(findTestObject('Pages/DashboardPage/password'),'@@');
 			WebUI.click(findTestObject('Object Repository/Pages/DashboardPage/signlnBtn'));
 
@@ -231,7 +231,7 @@ public class dashboard {
 		TestObject testObject = findTestObject('Pages/DashboardPage/signInForm');
 		if(WebUI.waitForElementVisible(testObject, 1)) {
 
-			WebUI.sendKeys(findTestObject('Pages/DashboardPage/username'), 'nitin_ghugare@persistent.com')
+			WebUI.sendKeys(findTestObject('Pages/DashboardPage/username'), 'nitinghugare76@gmail.com')
 			WebUI.sendKeys(findTestObject('Pages/DashboardPage/password'), 'Mumbai@23')
 			if(WebUI.waitForElementVisible(findTestObject('Object Repository/Pages/DashboardPage/signlnBtn'), 5)) {
 				WebUI.click(findTestObject('Object Repository/Pages/DashboardPage/signlnBtn'))
